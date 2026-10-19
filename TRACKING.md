@@ -14,7 +14,7 @@
 | Task ID | Task Title | Specification File | Priority | Status | Owner |
 |---|---|---|---|---|---|
 | TASK-01 | Core Image Processing Algorithms | [TASK_1_CORE_ALGORITHMS.md](file:///d:/UIT/XLA/lab/lab03/tasks/TASK_1_CORE_ALGORITHMS.md) | High | [DONE] | Agent |
-| TASK-02 | User Interface & Comparison Dashboard | [TASK_2_USER_INTERFACE.md](file:///d:/UIT/XLA/lab/lab03/tasks/TASK_2_USER_INTERFACE.md) | High | [TODO] | Agent |
+| TASK-02 | User Interface & Comparison Dashboard | [TASK_2_USER_INTERFACE.md](file:///d:/UIT/XLA/lab/lab03/tasks/TASK_2_USER_INTERFACE.md) | High | [DONE] | Agent |
 | TASK-03 | Robustness, Edge Cases & Verification | [TASK_3_ROBUSTNESS_TESTING.md](file:///d:/UIT/XLA/lab/lab03/tasks/TASK_3_ROBUSTNESS_TESTING.md) | Medium | [TODO] | Agent |
 
 ---
@@ -45,17 +45,17 @@
 
 ### [TASK-02] User Interface & Interactive Comparison Dashboard
 - Document: [TASK_2_USER_INTERFACE.md](file:///d:/UIT/XLA/lab/lab03/tasks/TASK_2_USER_INTERFACE.md)
-- Current Status: [TODO]
+- Current Status: [DONE]
 - Deliverables Checklist:
-  - [ ] Add Streamlit dependency via `uv add streamlit`
-  - [ ] Color image file uploader with metadata inspection (`app.py`)
-  - [ ] Parameter adjustment widgets for noise, kernel sizes, and thresholds
-  - [ ] 4-panel Denoising comparison grid (Original vs Noisy vs Mean vs Median with PSNR)
-  - [ ] Sharpening side-by-side comparison view
-  - [ ] 3-column concurrent Edge Detection gallery (Sobel, Prewitt, Canny)
-  - [ ] Processed image and comparison plot export functionality
-  - [ ] Application launch verified via `uv run streamlit run app.py`
-- Blockers / Notes: Depends on completion of TASK-01 core routines.
+  - [x] Add Streamlit dependency via `uv add streamlit`
+  - [x] Color image file uploader with metadata inspection (`app.py`)
+  - [x] Parameter adjustment widgets for noise, kernel sizes, and thresholds
+  - [x] 4-panel Denoising comparison grid (Original vs Noisy vs Mean vs Median with PSNR)
+  - [x] Sharpening side-by-side comparison view
+  - [x] 3-column concurrent Edge Detection gallery (Sobel, Prewitt, Canny)
+  - [x] Processed image and comparison plot export functionality
+  - [x] Application launch verified via `uv run streamlit run app.py`
+- Blockers / Notes: None. Dashboard verified operational.
 
 ---
 
@@ -97,3 +97,4 @@
 - [2026-10-19]: Linked all task specification files to the master tracking table.
 - [2026-10-19]: Added uv as the mandatory package manager across environment setup, task checklists, and command execution.
 - [2026-10-19]: Completed TASK-01 (Core Image Processing Algorithms); verified all 22 automated tests passing under uv.
+- [2026-10-19]: Completed TASK-02 (User Interface & Comparison Dashboard); installed Streamlit, implemented interactive comparison layouts, and verified web dashboard.

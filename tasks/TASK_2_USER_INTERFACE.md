@@ -3,7 +3,7 @@
 ## Metadata
 - Task ID: TASK-02
 - Title: User Interface & Interactive Comparison Dashboard
-- Status: [TODO]
+- Status: [DONE]
 - Priority: High
 - Tracking File: [TRACKING.md](file:///d:/UIT/XLA/lab/lab03/TRACKING.md)
 - Reference: [PROBLEM_STATEMENT.md](file:///d:/UIT/XLA/lab/lab03/PROBLEM_STATEMENT.md)
@@ -79,8 +79,8 @@ Build an interactive graphical user interface enabling users to interactively te
 ---
 
 ## 4. Acceptance Criteria
-- [ ] Dependency `streamlit` installed and recorded in `pyproject.toml` and `uv.lock`.
-- [ ] Application starts cleanly via `uv run streamlit run app.py` without warnings or deprecation errors.
-- [ ] User can upload any standard color image and receive real-time visual feedback.
-- [ ] All three edge detection outputs are presented simultaneously in a side-by-side layout.
-- [ ] Comparison views for denoising clearly display original, noisy, mean-filtered, and median-filtered images with PSNR values.
+- [x] Dependency `streamlit` installed and recorded in `pyproject.toml` and `uv.lock`.
+- [x] Application starts cleanly via `uv run streamlit run app.py` without warnings or deprecation errors.
+- [x] User can upload any standard color image and receive real-time visual feedback.
+- [x] All three edge detection outputs are presented simultaneously in a side-by-side layout.
+- [x] Comparison views for denoising clearly display original, noisy, mean-filtered, and median-filtered images with PSNR values.
