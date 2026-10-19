@@ -3,7 +3,7 @@
 ## Metadata
 - Task ID: TASK-03
 - Title: Robustness, Edge Case Handling & Automated Verification
-- Status: [TODO]
+- Status: [DONE]
 - Priority: Medium
 - Tracking File: [TRACKING.md](file:///d:/UIT/XLA/lab/lab03/TRACKING.md)
 - Reference: [PROBLEM_STATEMENT.md](file:///d:/UIT/XLA/lab/lab03/PROBLEM_STATEMENT.md)
@@ -82,6 +82,6 @@ Harden the entire image enhancement pipeline against corrupt, non-standard, or e
 ---
 
 ## 4. Acceptance Criteria
-- [ ] Pipeline gracefully handles RGBA, Grayscale, small, and oversized images.
-- [ ] Automated verification script `uv run python verify_pipeline.py` runs end-to-end and outputs all required comparison images.
-- [ ] All automated tests via `uv run pytest tests/test_edge_cases.py` pass without errors ([PASS]).
+- [x] Pipeline gracefully handles RGBA, Grayscale, small, and oversized images.
+- [x] Automated verification script `uv run python verify_pipeline.py` runs end-to-end and outputs all required comparison images.
+- [x] All automated tests via `uv run pytest tests/test_edge_cases.py` pass without errors ([PASS]).

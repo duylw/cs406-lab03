@@ -15,7 +15,7 @@
 |---|---|---|---|---|---|
 | TASK-01 | Core Image Processing Algorithms | [TASK_1_CORE_ALGORITHMS.md](file:///d:/UIT/XLA/lab/lab03/tasks/TASK_1_CORE_ALGORITHMS.md) | High | [DONE] | Agent |
 | TASK-02 | User Interface & Comparison Dashboard | [TASK_2_USER_INTERFACE.md](file:///d:/UIT/XLA/lab/lab03/tasks/TASK_2_USER_INTERFACE.md) | High | [DONE] | Agent |
-| TASK-03 | Robustness, Edge Cases & Verification | [TASK_3_ROBUSTNESS_TESTING.md](file:///d:/UIT/XLA/lab/lab03/tasks/TASK_3_ROBUSTNESS_TESTING.md) | Medium | [TODO] | Agent |
+| TASK-03 | Robustness, Edge Cases & Verification | [TASK_3_ROBUSTNESS_TESTING.md](file:///d:/UIT/XLA/lab/lab03/tasks/TASK_3_ROBUSTNESS_TESTING.md) | Medium | [DONE] | Agent |
 
 ---
 
@@ -61,14 +61,14 @@
 
 ### [TASK-03] Robustness, Edge Case Handling & Automated Verification
 - Document: [TASK_3_ROBUSTNESS_TESTING.md](file:///d:/UIT/XLA/lab/lab03/tasks/TASK_3_ROBUSTNESS_TESTING.md)
-- Current Status: [TODO]
+- Current Status: [DONE]
 - Deliverables Checklist:
-  - [ ] Input sanitization for RGBA, Grayscale, and extreme dimensions (`core/utils.py`)
-  - [ ] Kernel size boundary validators (odd integer enforcement)
-  - [ ] Automated end-to-end CLI batch runner (`verify_pipeline.py`) runnable via `uv run python verify_pipeline.py`
-  - [ ] Automated output artifact generation for lab submission
-  - [ ] Edge case test suite passing via `uv run pytest tests/test_edge_cases.py`
-- Blockers / Notes: Can proceed once initial core algorithms and CLI structure are established.
+  - [x] Input sanitization for RGBA, Grayscale, and extreme dimensions (`core/utils.py`)
+  - [x] Kernel size boundary validators (odd integer enforcement)
+  - [x] Automated end-to-end CLI batch runner (`verify_pipeline.py`) runnable via `uv run python verify_pipeline.py`
+  - [x] Automated output artifact generation for lab submission
+  - [x] Edge case test suite passing via `uv run pytest tests/test_edge_cases.py`
+- Blockers / Notes: None. All 31 tests passing and benchmark runner verified.
 
 ---
 
@@ -98,3 +98,4 @@
 - [2026-10-19]: Added uv as the mandatory package manager across environment setup, task checklists, and command execution.
 - [2026-10-19]: Completed TASK-01 (Core Image Processing Algorithms); verified all 22 automated tests passing under uv.
 - [2026-10-19]: Completed TASK-02 (User Interface & Comparison Dashboard); installed Streamlit, implemented interactive comparison layouts, and verified web dashboard.
+- [2026-10-19]: Completed TASK-03 (Robustness, Edge Cases & Verification); implemented input sanitization, automated CLI pipeline runner, and edge case test suite (31/31 tests passing).
